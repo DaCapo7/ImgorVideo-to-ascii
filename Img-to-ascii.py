@@ -94,7 +94,9 @@ print('window created !')
 
 window.mainloop()
 """
-final = toascii('/Users/cdupouy/Desktop/images.jpg')
-finalfile = open('/Users/cdupouy/Desktop/doc.txt', 'w')
+
+chemin=input('où est votre image ?')
+final = toascii(chemin)
+finalfile = open('doc.txt', 'w')
 finalfile.write(final)
 finalfile.close()
